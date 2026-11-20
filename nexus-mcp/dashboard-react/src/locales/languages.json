@@ -1,0 +1,239 @@
+[
+  {
+    "code": "en-IN",
+    "name": "English",
+    "native": "English",
+    "aliases": [
+      "english"
+    ],
+    "voice": true
+  },
+  {
+    "code": "hi-IN",
+    "name": "Hindi",
+    "native": "हिन्दी",
+    "aliases": [
+      "hindi",
+      "हिंदी",
+      "हिन्दी"
+    ],
+    "voice": true
+  },
+  {
+    "code": "kn-IN",
+    "name": "Kannada",
+    "native": "ಕನ್ನಡ",
+    "aliases": [
+      "kannada",
+      "ಕನ್ನಡ",
+      "canada",
+      "kannad"
+    ],
+    "voice": true
+  },
+  {
+    "code": "ta-IN",
+    "name": "Tamil",
+    "native": "தமிழ்",
+    "aliases": [
+      "tamil",
+      "தமிழ்"
+    ],
+    "voice": true
+  },
+  {
+    "code": "te-IN",
+    "name": "Telugu",
+    "native": "తెలుగు",
+    "aliases": [
+      "telugu",
+      "తెలుగు"
+    ],
+    "voice": true
+  },
+  {
+    "code": "ml-IN",
+    "name": "Malayalam",
+    "native": "മലയാളം",
+    "aliases": [
+      "malayalam",
+      "മലയാളം"
+    ],
+    "voice": true
+  },
+  {
+    "code": "mr-IN",
+    "name": "Marathi",
+    "native": "मराठी",
+    "aliases": [
+      "marathi",
+      "मराठी"
+    ],
+    "voice": true
+  },
+  {
+    "code": "bn-IN",
+    "name": "Bengali",
+    "native": "বাংলা",
+    "aliases": [
+      "bengali",
+      "bangla",
+      "বাংলা"
+    ],
+    "voice": true
+  },
+  {
+    "code": "gu-IN",
+    "name": "Gujarati",
+    "native": "ગુજરાતી",
+    "aliases": [
+      "gujarati",
+      "ગુજરાતી"
+    ],
+    "voice": true
+  },
+  {
+    "code": "pa-IN",
+    "name": "Punjabi",
+    "native": "ਪੰਜਾਬੀ",
+    "aliases": [
+      "punjabi",
+      "ਪੰਜਾਬੀ"
+    ],
+    "voice": true
+  },
+  {
+    "code": "od-IN",
+    "name": "Odia",
+    "native": "ଓଡ଼ିଆ",
+    "aliases": [
+      "odia",
+      "oriya",
+      "ଓଡ଼ିଆ"
+    ],
+    "voice": true
+  },
+  {
+    "code": "as-IN",
+    "name": "Assamese",
+    "native": "অসমীয়া",
+    "aliases": [
+      "assamese",
+      "অসমীয়া"
+    ],
+    "voice": false
+  },
+  {
+    "code": "ur-IN",
+    "name": "Urdu",
+    "native": "اردو",
+    "aliases": [
+      "urdu",
+      "اردو"
+    ],
+    "voice": false
+  },
+  {
+    "code": "ne-IN",
+    "name": "Nepali",
+    "native": "नेपाली",
+    "aliases": [
+      "nepali",
+      "नेपाली"
+    ],
+    "voice": false
+  },
+  {
+    "code": "kok-IN",
+    "name": "Konkani",
+    "native": "कोंकणी",
+    "aliases": [
+      "konkani",
+      "कोंकणी"
+    ],
+    "voice": false
+  },
+  {
+    "code": "ks-IN",
+    "name": "Kashmiri",
+    "native": "کٲشُر",
+    "aliases": [
+      "kashmiri",
+      "کٲشُر"
+    ],
+    "voice": false
+  },
+  {
+    "code": "sd-IN",
+    "name": "Sindhi",
+    "native": "سنڌي",
+    "aliases": [
+      "sindhi",
+      "سنڌي"
+    ],
+    "voice": false
+  },
+  {
+    "code": "sa-IN",
+    "name": "Sanskrit",
+    "native": "संस्कृतम्",
+    "aliases": [
+      "sanskrit",
+      "संस्कृत",
+      "संस्कृतम्"
+    ],
+    "voice": false
+  },
+  {
+    "code": "sat-IN",
+    "name": "Santali",
+    "native": "ᱥᱟᱱᱛᱟᱲᱤ",
+    "aliases": [
+      "santali",
+      "santhali",
+      "ᱥᱟᱱᱛᱟᱲᱤ"
+    ],
+    "voice": false
+  },
+  {
+    "code": "mni-IN",
+    "name": "Manipuri",
+    "native": "ꯃꯤꯇꯩꯂꯣꯟ",
+    "aliases": [
+      "manipuri",
+      "meitei",
+      "ꯃꯤꯇꯩꯂꯣꯟ"
+    ],
+    "voice": false
+  },
+  {
+    "code": "brx-IN",
+    "name": "Bodo",
+    "native": "बड़ो",
+    "aliases": [
+      "bodo",
+      "बड़ो"
+    ],
+    "voice": false
+  },
+  {
+    "code": "mai-IN",
+    "name": "Maithili",
+    "native": "मैथिली",
+    "aliases": [
+      "maithili",
+      "मैथिली"
+    ],
+    "voice": false
+  },
+  {
+    "code": "doi-IN",
+    "name": "Dogri",
+    "native": "डोगरी",
+    "aliases": [
+      "dogri",
+      "डोगरी"
+    ],
+    "voice": false
+  }
+]

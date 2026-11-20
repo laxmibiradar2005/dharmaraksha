@@ -1,0 +1,18 @@
+[Unit]
+Description=Dharmaraksha local document scanner
+After=network.target
+RequiresMountsFor=/home/arduino
+
+[Service]
+User=arduino
+Group=arduino
+Environment=KIOSK_CAMERA=/dev/video0
+ExecStart=/home/arduino/dharmaraksha-runtime/scanner-venv/bin/python /home/arduino/dharmaraksha/nexus-mcp/scripts/document-scanner.py
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=strict
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

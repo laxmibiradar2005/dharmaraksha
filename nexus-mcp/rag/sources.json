@@ -1,0 +1,182 @@
+[
+  {
+    "id": "constitution",
+    "title": "Constitution of India",
+    "urls": [
+      "https://www.legislative.gov.in/static/uploads/2025/08/b9a933fb88c0a5afba254256bc55a3f0.pdf"
+    ],
+    "verify": "CONSTITUTION OF INDIA"
+  },
+  {
+    "id": "bns",
+    "title": "BNS — Bharatiya Nyaya Sanhita, 2023",
+    "urls": [
+      "https://cdtihyd.gov.in/static/download/LatestLaws/THE_BHARATIYA_NYAYA_SANHITA_2023.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf"
+    ],
+    "verify": "BHARATIYA NYAYA SANHITA"
+  },
+  {
+    "id": "bnss",
+    "title": "BNSS — Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "urls": [
+      "https://citizen.goapolice.gov.in/documents/10184/4342826/THE%2BBHARATIYA%2BNAGARIK%2BSURAKSHA%2BSANHITA%2C%2B2023.pdf/703f3eb9-7e5a-4d35-b770-c5283e653696",
+      "https://cdnbbsr.s3waas.gov.in/s3ec052151b4c76b4dcb048d06a5c32942/uploads/2024/12/2024120429.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/21920/1/the_bharatiya_nagarik_suraksha_sanhita%2C_2023.pdf"
+    ],
+    "verify": "BHARATIYA NAGARIK SURAKSHA"
+  },
+  {
+    "id": "bsa",
+    "title": "BSA — Bharatiya Sakshya Adhiniyam, 2023",
+    "urls": [
+      "https://www.cdtschd.gov.in/pdf/Gazette-of-The-Bharatiya-Sakshya-Adhiniyam-2023.pdf",
+      "https://www.mha.gov.in/sites/default/files/2026-02/2_250882_english_01042024_0.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/20063/1/aa202347.pdf"
+    ],
+    "verify": "BHARATIYA SAKSHYA"
+  },
+  {
+    "id": "contract",
+    "title": "Indian Contract Act, 1872",
+    "urls": [
+      "https://www.indiacode.nic.in/bitstream/123456789/2187/2/A187209.pdf",
+      "https://wbconsumers.gov.in/writereaddata/ACT%20%26%20RULES/Relevant%20Act%20%26%20Rules/the-indian-contract-act-1872.pdf"
+    ],
+    "verify": "INDIAN CONTRACT ACT"
+  },
+  {
+    "id": "consumer",
+    "title": "Consumer Protection Act, 2019",
+    "urls": [
+      "https://wbconsumers.gov.in/writereaddata/ACT%20%26%20RULES/Act%20%26%20Rules/Consumer%20Protection%20Act%202019.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/16939/1/a2019-35.pdf"
+    ],
+    "verify": "CONSUMER PROTECTION ACT, 2019"
+  },
+  {
+    "id": "domestic-violence",
+    "title": "Protection of Women from Domestic Violence Act, 2005",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3f78ab8a5341dac088339408e8783c726/uploads/2025/06/20250623612188605.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/2021/5/A2005-43.pdf"
+    ],
+    "verify": "PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE"
+  },
+  {
+    "id": "legal-aid",
+    "title": "Legal Services Authorities Act, 1987",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s32e45f93088c7db59767efef516b306aa/uploads/2025/04/202504081796627129.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/10960/1/the_legal_service_authorities_act%2C_1987.pdf"
+    ],
+    "verify": "LEGAL SERVICES AUTHORITIES ACT"
+  },
+  {
+    "id": "rti",
+    "title": "Right to Information Act, 2005",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2023/11/202311221804498216.pdf",
+      "https://legalaffairs.gov.in/sites/default/files/rti-act-2005.pdf"
+    ],
+    "verify": "RIGHT TO INFORMATION ACT"
+  },
+  {
+    "id": "property",
+    "title": "Transfer of Property Act, 1882",
+    "urls": [
+      "https://igrsup.gov.in/prernadoc/Adhiniyam/pdf7/index.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    ],
+    "verify": "TRANSFER OF PROPERTY ACT"
+  },
+  {
+    "id": "hindu-marriage",
+    "title": "Hindu Marriage Act, 1955",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3f78ab8a5341dac088339408e8783c726/uploads/2025/06/20250625324458562.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/1560/1/A1955-25Eng.pdf"
+    ],
+    "verify": "HINDU MARRIAGE ACT"
+  },
+  {
+    "id": "pocso",
+    "title": "Protection of Children from Sexual Offences Act, 2012",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3f78ab8a5341dac088339408e8783c726/uploads/2025/06/20250623494233552.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf"
+    ],
+    "verify": "PROTECTION OF CHILDREN FROM SEXUAL OFFENCES"
+  },
+  {
+    "id": "cpc",
+    "title": "Code of Civil Procedure, 1908",
+    "urls": [
+      "https://www.indiacode.nic.in/bitstream/123456789/2191/1/aA1908-05.pdf",
+      "https://www.indiacode.nic.in/bitstream/123456789/11087/1/the_code_of_civil_procedure%2C_1908.pdf"
+    ],
+    "verify": "CODE OF CIVIL PROCEDURE"
+  },
+  {
+    "id": "bns-commencement",
+    "title": "BNS commencement notification S.O. 850(E), 23 February 2024",
+    "urls": [
+      "https://www.mha.gov.in/sites/default/files/BhartiyaNyayaSanhita_24022024.pdf"
+    ],
+    "verify": "850"
+  },
+  {
+    "id": "bnss-commencement",
+    "title": "BNSS commencement notification S.O. 848(E), 23 February 2024",
+    "urls": [
+      "https://www.mha.gov.in/sites/default/files/BharatiyaNagarikSurakshaSanhita_24022024.pdf"
+    ],
+    "verify": "848"
+  },
+  {
+    "id": "hindu-succession",
+    "title": "Hindu Succession Act, 1956",
+    "verify": "HINDU SUCCESSION ACT",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3f78ab8a5341dac088339408e8783c726/uploads/2025/06/20250625290614384.pdf"
+    ]
+  },
+  {
+    "id": "child-marriage",
+    "title": "Prohibition of Child Marriage Act, 2006",
+    "verify": "PROHIBITION OF CHILD MARRIAGE ACT",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3f78ab8a5341dac088339408e8783c726/uploads/2025/06/202506251912948753.pdf"
+    ]
+  },
+  {
+    "id": "right-education",
+    "title": "Right of Children to Free and Compulsory Education Act, 2009",
+    "verify": "RIGHT OF CHILDREN TO FREE AND COMPULSORY EDUCATION",
+    "urls": [
+      "https://cdnbbsr.s3waas.gov.in/s3f78ab8a5341dac088339408e8783c726/uploads/2025/06/202506231511334382.pdf"
+    ]
+  },
+  {
+    "id": "satender-antil-2022",
+    "title": "Satender Kumar Antil v CBI — Supreme Court judgment, 11 July 2022",
+    "kind": "judgment",
+    "issuedAt": "2022-07-11",
+    "jurisdiction": "India",
+    "verify": "SATENDER KUMAR ANTIL",
+    "urls": [
+      "https://api.sci.gov.in/supremecourt/2021/27955/27955_2021_5_1505_36261_Judgement_11-Jul-2022.pdf"
+    ]
+  },
+  {
+    "id": "aadhaar-2018",
+    "title": "K S Puttaswamy v Union of India — Aadhaar judgment, 26 September 2018",
+    "kind": "judgment",
+    "issuedAt": "2018-09-26",
+    "jurisdiction": "India",
+    "verify": "PUTTASWAMY",
+    "urls": [
+      "https://webapi.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_26-Sep-2018.pdf"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[Unit]
+Description=Reconnect the paired Mivi Roam 2 speaker
+After=wireplumber.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/arduino/dharmaraksha/deploy/uno-q/reconnect-speaker.sh
+TimeoutStartSec=20

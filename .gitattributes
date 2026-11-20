@@ -1,0 +1,4 @@
+# Preserve Linux deployment files when checked out on Windows.
+deploy/uno-q/*.sh text eol=lf
+deploy/uno-q/*.service text eol=lf
+deploy/uno-q/*.timer text eol=lf

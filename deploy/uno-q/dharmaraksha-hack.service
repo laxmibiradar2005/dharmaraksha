@@ -1,0 +1,27 @@
+[Unit]
+Description=Dharmaraksha UNO Q prototype
+Wants=network-online.target
+After=network-online.target
+RequiresMountsFor=/home/arduino
+
+[Service]
+Type=simple
+User=arduino
+Group=arduino
+WorkingDirectory=/home/arduino/dharmaraksha/nexus-mcp
+Environment=NODE_ENV=production
+Environment=DISABLE_OUTBOUND_INTEGRATIONS=true
+Environment=PATH=/home/arduino/dharmaraksha-runtime/node-v22.23.5-linux-arm64/bin:/usr/local/bin:/usr/bin:/bin
+EnvironmentFile=/home/arduino/dharmaraksha/nexus-mcp/.env
+ExecStart=/home/arduino/dharmaraksha-runtime/node-v22.23.5-linux-arm64/bin/node /home/arduino/dharmaraksha/nexus-mcp/dist/server.js
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/home/arduino/dharmaraksha/nexus-mcp
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,45 @@
+[
+  {
+    "q": "Who can receive free legal services under the Legal Services Authorities Act?",
+    "expected": [
+      "legal-aid"
+    ]
+  },
+  {
+    "q": "consumer defective goods refund complaint",
+    "expected": [
+      "consumer"
+    ]
+  },
+  {
+    "q": "BNSS bail non bailable offence section 480",
+    "expected": [
+      "bnss",
+      "satender-antil-2022"
+    ]
+  },
+  {
+    "q": "domestic violence protection residence order",
+    "expected": [
+      "domestic-violence"
+    ]
+  },
+  {
+    "q": "हिंसा से घरेलू सुरक्षा का आदेश",
+    "expected": [
+      "domestic-violence"
+    ]
+  },
+  {
+    "q": "ಗ್ರಾಹಕ ದೋಷಯುಕ್ತ ವಸ್ತು ಹಣ ಮರುಪಾವತಿ",
+    "expected": [
+      "consumer"
+    ]
+  },
+  {
+    "q": "இலவச சட்ட உதவி யாருக்கு கிடைக்கும்",
+    "expected": [
+      "legal-aid"
+    ]
+  }
+]

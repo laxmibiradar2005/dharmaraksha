@@ -1,0 +1,26 @@
+[Unit]
+Description=Dharmaraksha prototype dashboard
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=dharmaraksha
+Group=dharmaraksha
+WorkingDirectory=/opt/dharmaraksha/nexus-mcp
+Environment=NODE_ENV=production
+Environment=DISABLE_OUTBOUND_INTEGRATIONS=true
+EnvironmentFile=/opt/dharmaraksha/nexus-mcp/.env
+ExecStart=/usr/bin/node /opt/dharmaraksha/nexus-mcp/dist/server.js
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/dharmaraksha/nexus-mcp
+
+[Install]
+WantedBy=multi-user.target

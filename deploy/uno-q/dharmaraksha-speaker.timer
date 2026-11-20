@@ -1,0 +1,10 @@
+[Unit]
+Description=Retry the kiosk speaker when it is switched on
+
+[Timer]
+OnBootSec=20
+OnUnitActiveSec=45
+Unit=dharmaraksha-speaker.service
+
+[Install]
+WantedBy=timers.target

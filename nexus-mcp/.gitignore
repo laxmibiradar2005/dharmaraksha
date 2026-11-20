@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+serviceAccountKey.json
+.vercel/
+nexus.db*
+generated_documents/
+*.pdf
+*.txt
+*.ipynb
+50 agent prompt.md
+NEXUS_CLAUDE_CONTEXT.md
+data/private/
+data/legal/
+
+data/legal-postgres*
+data/models/
+rag/inbox/*
+!rag/inbox/README.md

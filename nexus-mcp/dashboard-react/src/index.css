@@ -1,0 +1,40 @@
+:root {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #263e35;
+  background: #f7f8f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --forest: #1b493d;
+  --forest-dark: #14392f;
+  --muted: #768078;
+  --border: #e3e7df;
+  --serif: 'Lora', Georgia, serif;
+  --text: #263e35;
+  --text-dim: #768078;
+  --font: 'DM Sans', sans-serif;
+  --mono: ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; min-width: 320px; min-height: 100%; }
+body { margin: 0; }
+button, input, textarea, select { font: inherit; }
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; color: inherit; border: 0; background: none; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+a { color: inherit; text-decoration: none; }
+button, a { touch-action: manipulation; }
+button, a, input, textarea, select { outline-offset: 4px; }
+:focus-visible { outline: 2px solid #a77c36; }
+textarea { resize: vertical; }
+svg { flex-shrink: 0; vertical-align: middle; }
+::selection { color: #163d32; background: #d2e4d8; }
+[hidden] { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+@keyframes pulse { 50% { opacity: .45; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
+
+html[lang=sat] body,html[lang=sat] button,html[lang=sat] input,html[lang=sat] h1,html[lang=sat] h2 {font-family:"Noto Sans Ol Chiki",sans-serif!important;letter-spacing:normal!important}
+html[lang=mni] body,html[lang=mni] button,html[lang=mni] input,html[lang=mni] h1,html[lang=mni] h2 {font-family:"Noto Sans Meetei Mayek",sans-serif!important;letter-spacing:normal!important}
+html[dir=rtl] body,html[dir=rtl] button,html[dir=rtl] input,html[dir=rtl] h1,html[dir=rtl] h2 {font-family:"Noto Sans Arabic",sans-serif!important;letter-spacing:normal!important}

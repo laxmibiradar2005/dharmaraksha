@@ -1,0 +1,61 @@
+{
+  "name": "nexus-mcp",
+  "version": "1.0.0",
+  "description": "NEXUS MCP Tool Server \u00e2\u20ac\u201d Multi-agent AI investigation system with Telegram bot and live dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn --transpile-only server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "vercel-dev": "vercel dev",
+    "test:assistant": "npm run build && node --test dist/tests/assistant.test.js dist/tests/kioskProviders.test.js",
+    "rag:build": "node scripts/build-legal-index.cjs",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "doctor": "node scripts/doctor.cjs",
+    "rag:index": "npm run build && node dist/scripts/index-postgres.js",
+    "rag:serve": "node dist/scripts/serve-rag.js",
+    "rag:evaluate": "node scripts/evaluate-rag.cjs"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@electric-sql/pglite-pgvector": "^0.0.17",
+    "@google/generative-ai": "^0.21.0",
+    "@huggingface/transformers": "^4.3.2",
+    "@supabase/supabase-js": "^2.102.1",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/multer": "^2.1.0",
+    "@types/nodemailer": "^8.0.0",
+    "adm-zip": "^0.5.17",
+    "better-sqlite3": "^12.8.0",
+    "composio-core": "^0.5.39",
+    "cors": "^2.8.5",
+    "docx": "^9.6.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.8.0",
+    "multer": "^2.1.1",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemailer": "^8.0.6",
+    "pdf-parse": "^2.4.5",
+    "pg": "^8.23.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "@types/node-fetch": "^2.6.11",
+    "@types/node-telegram-bot-api": "^0.64.1",
+    "@types/pg": "^8.23.1",
+    "@types/uuid": "^9.0.7",
+    "@types/ws": "^8.5.10",
+    "@vercel/node": "^3.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
